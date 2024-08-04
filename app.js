@@ -165,10 +165,10 @@ Complete the exercise in the space below:
 
 const convertTemperature = (temp, degreeUnit) => {
     if (degreeUnit === 'C') {
-        newTemp = (temp * 1.8) + 32;
+        const newTemp = (temp * 1.8) + 32;
         return newTemp;
     } else if (degreeUnit === 'F') {
-        newTemp = ((temp-32) * 5)/9;
+        const newTemp = ((temp-32) * 5)/9;
         return newTemp;
     }
 }
